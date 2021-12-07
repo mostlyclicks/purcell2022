@@ -1,12 +1,13 @@
 import logo from './images/purcellcomm_logo.png';
 import './App.css';
+import Welcome from './components/Welcome'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="Purcell Communications Logo" className=" min-h-25" />
-        <h2>Website coming soon!</h2>
+        <img src={logo} className="App-logo" alt="Purcell Communications Logo" className="min-h-25" />
+        <Welcome />
         <p>
           <strong>Ruth Purcell</strong><br/>
           <a href="mailto:ruthpurcell@tds.net">ruthpurcell@tds.net</a><br/>
