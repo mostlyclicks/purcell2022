@@ -5,9 +5,9 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo min-h-25" alt="Purcell Communications Logo" />
+    <div className="App ">
+      <header className="App-header p-8 sm:p-12 max-h-20">
+        <img src={logo} className="App-logo max-h-21" alt="Purcell Communications Logo" />
       </header>
 
       <Welcome />
