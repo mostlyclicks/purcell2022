@@ -2,7 +2,7 @@ import React from 'react'
 
 const Welcome = () => {
   return (
-    <div className="p-8 container mx-auto">
+    <div className="p-8 container mx-auto flex-grow">
       <h1 className="text-3xl font-bold mb-4">Welcome to Purcell Communications</h1>
 
       <p className="text-base text-left mb-4">Think of us as your “general contractor” for all of your marketing communication needs.</p>

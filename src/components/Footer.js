@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-  <footer>
+  <footer className="py-12 justify-end">
     <p>
       <strong>Ruth Purcell</strong><br/>
       <a href="mailto:ruthpurcell@tds.net">ruthpurcell@tds.net</a><br/>
